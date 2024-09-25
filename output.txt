@@ -1,0 +1,55 @@
+[Running] python -u "c:\Users\plati\OneDrive\Documents\project2-008347411\project2.py"
+Connected to MySQL Server version  8.0.38
+1.)Printing titles.
+(1001, 'ASP.NET UNLEASHED', 4, 'ASP', datetime.date(2002, 4, 2), 'HARD\nCOVER', 540)
+(1002, 'ORACLE10G COMP. REF.', 3, 'ORA', datetime.date(2005, 5, 1), 'PAPER\nBACK', 575)
+(1003, 'MASTERING EJB', 1, 'JEE', datetime.date(2005, 2, 3), 'PAPER\nBACK', 475)
+(1004, 'JAVA COMP. REF', 3, 'JAVA', datetime.date(2005, 4, 3), 'PAPER\nBACK', 499)
+(1005, 'PRO. VB.NET', 2, 'VB', datetime.date(2005, 6, 15), 'HARD COVER', 450)
+(1006, 'INTRO. VB.NET', 2, 'VB', datetime.date(2002, 12, 2), 'PAPER BACK', 425)
+ 
+2.)Create a table customer.
+Customer Table created successfully 
+ 
+3.)Insert 5 customers.
+Customers inserted successfully into customer table
+ 
+4.)Find the publisher who has published the most titles.
+('WROX',)
+('TATA MCGRAW-\nHILL',)
+ 
+5:List all the authors and the total price of their published titles, in order of greatest to least total price. If an author has no published titles, they do not need to be listed.
+('DAVAID HUNTER', Decimal('949'))
+('KEVIN LONEY', Decimal('575'))
+('STEPHEN WALTHER', Decimal('540'))
+('ED. ROMANS', Decimal('475'))
+('JAMES GOODWILL', Decimal('450'))
+ 
+6.)Find the names of all titles which have more than 1 author who wrote it.
+('PRO. VB.NET',)
+ 
+7.)Find the names of all publishers who have published a book with a price below $500, with a cover type of �Paper Back�.
+('TATA MCGRAW-\nHILL',)
+('WILLEY',)
+('WROX',)
+ 
+8.)Write a query to retrieve the names of all authors who have written books whose subjects contain the word �JAVA�, but have not written any books on the subject �VISUAL BASIC.NET�.
+('ED. ROMANS',)
+ 
+9.)Write a query to retrieve the names of all publishers whose email addresses contains the domain �.com�.
+('WROX',)
+('TATA MCGRAW-\nHILL',)
+('TECHMEDIA',)
+ 
+10.)Form a query to decrease the price of all books published before 2003 by 5% and increase the price of all books published after 2004 by 15%.
+Prices have successfully been updated
+(1001, 'ASP.NET UNLEASHED', 4, 'ASP', datetime.date(2002, 4, 2), 'HARD\nCOVER', 513)
+(1002, 'ORACLE10G COMP. REF.', 3, 'ORA', datetime.date(2005, 5, 1), 'PAPER\nBACK', 661)
+(1003, 'MASTERING EJB', 1, 'JEE', datetime.date(2005, 2, 3), 'PAPER\nBACK', 546)
+(1004, 'JAVA COMP. REF', 3, 'JAVA', datetime.date(2005, 4, 3), 'PAPER\nBACK', 574)
+(1005, 'PRO. VB.NET', 2, 'VB', datetime.date(2005, 6, 15), 'HARD COVER', 518)
+(1006, 'INTRO. VB.NET', 2, 'VB', datetime.date(2002, 12, 2), 'PAPER BACK', 404)
+ 
+MySQL connection is closed
+
+[Done] exited with code=0 in 0.179 seconds
